@@ -1,11 +1,11 @@
 {
   "name": "fulljs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
-    "dev-bundle": "webpack -w -d"
+    "test": "jest"
+    "dev-server", "nodemon --exec babel-node src/server/server.js --ignore dist/":
+    "dev-bundle", "webpack -w -d"
   },
   "keywords": [],
   "author": "",
@@ -24,9 +24,21 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.3.0",
     "eslint": "^6.8.0",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
-    "nodemon": "^2.0.3"
-  }
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.3",
+    "react-test-renderer": "^16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mescalero303/fulljs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mescalero303/fulljs/issues"
+  },
+  "homepage": "https://github.com/Mescalero303/fulljs#readme",
+  "description": ""
 }
