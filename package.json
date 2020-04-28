@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
-    "dev-server", "nodemon --exec babel-node src/server/server.js --ignore dist/":
-    "dev-bundle", "webpack -w -d"
-  },
+    "test": "jest",
+    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev-bundle": "webpack -w -d"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
